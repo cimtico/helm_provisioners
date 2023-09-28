@@ -1,0 +1,6 @@
+mysql:
+  enabled: true
+  rootPassword: HelloPipelines
+  appUser: admin
+  appPassword: admini
+  appDatabase: hello_pipelines_development

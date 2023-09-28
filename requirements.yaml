@@ -1,0 +1,6 @@
+dependencies:
+  - name: mysql-cluster
+    version: 0.5.0
+    repository: https://helm-charts.bitpoke.io
+    condition: mysql.enabled
+    alias: mysql
