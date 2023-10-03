@@ -2,3 +2,7 @@ apiVersion: v2
 name: provisioner-services
 description: Helm chart for deploying multiple microservices.
 version: 0.1.0
+dependencies:
+- name: mysql
+  version: ">=9.12.3"
+  repository: "https://charts.bitnami.com/bitnami"
