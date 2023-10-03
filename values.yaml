@@ -2,3 +2,5 @@ mysql:
  mysqlRootPassword: testing
  mysqlUser: user
  mysqlPassword: user
+redis:
+  architecture: standalone

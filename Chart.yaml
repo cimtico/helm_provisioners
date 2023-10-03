@@ -6,3 +6,6 @@ dependencies:
 - name: mysql
   version: ">=9.12.3"
   repository: "https://charts.bitnami.com/bitnami"
+- name: redis
+  version: ">=15"
+  repository: https://charts.bitnami.com/bitnami
