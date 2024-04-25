@@ -4,3 +4,5 @@ mysql:
  mysqlPassword: user
 redis:
   architecture: standalone
+  auth:
+    enabled: false
